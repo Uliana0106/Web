@@ -1,0 +1,29 @@
+{% extends 'base.tmpl' %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>
+	Задача3. Дано ціле число. Якщо воно є додатнім, то додати до нього 1; якщо
+	від'ємним, то відняти від нього 2; якщо нульовим, то заменити його на 10. 
+	Вивести умову задачі, початкові значення та результуючі.
+	</h3>
+	<p>Дано ціле число {{num}}. Якщо воно є додатнім, то {{condition}}; якщо від'ємним, то {{condition}}; якщо нульовим, то {{condition}}.</p>
+	<p>Результуюче число: {{result}}</p>
+	<p><h3>
+	Задача13. Дано три числа. Знайти середнє з них (тобто число, розташоване між
+	найменшим і найбільшим). Вивести умову задачі, початкові значення та
+	результуючі.
+	</h3></p>
+	<p>A = {{A}}, B = {{B}}</p>
+</body>
+</html>
+
+{% endblock content %}

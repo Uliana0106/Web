@@ -1,0 +1,35 @@
+
+{% extends 'base.tmpl' %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+	<h3>
+	Задача3. Дано сторони прямокутника a і b. Знайти його площу S = a · b і
+	периметр P = 2 · (a + b). Вивести умову задачі, початкові значення та результуючі.
+	</h3>
+	<p>a = {{a}}</p>
+	<p>b = {{b}}</p>
+	<p>Площа прямокутника: {{ S }}</p> 
+	<p>Периметр прямокутника: {{ P }}</p>
+	<p>
+	<h3>
+	Задача13. Дано три точки A, B, C числової осі. Знайти довжини відрізків AC і
+	BC і їх суму. Вивести умову задачі, початкові значення та результуючі.
+	</h3></p>
+	<p>Дано три точки {{xA}}, {{xB}}, {{xC}} числової осі.</p>
+	<p>Довжина відрізка AC: {{AC}}</p>
+	<p>Довжина відрізка BC: {{BC}}</p>
+	<p>Сума довжин відрізків AC і BC: {{sum}}</p>
+</body>
+</html>
+
+{% endblock content %}

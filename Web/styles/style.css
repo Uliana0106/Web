@@ -1,0 +1,55 @@
+#b
+{
+    width: 1220px;
+    height: 1200px;
+    font-size: 14pt;
+    font-family: "Times New Roman", Times, serif; 
+    text-align: center;
+    padding-left: 150px;
+	padding-top: 30px;
+}
+#d1{
+    width: 1200px;
+    height: 190px;
+    background-color: brown; 
+    padding: 10px;
+    margin-bottom: 20px;
+}
+#dd{
+    float: right;
+    margin: 0px;
+    padding: 0px;
+}
+#d2{
+    height: 820px;
+    width: 910px;
+    background-color: #2EAEE4;
+}
+#d3{
+    height: 600px;
+    width: 300px;
+    background-color: orange;
+    text-align:center;    
+    margin-left: 10px;
+
+} 
+#d4{
+    height: 200px;
+    width: 300px;
+    background-color: red ;
+    margin-top: 20px;
+    margin-left: 10px;
+}  
+#d5{
+    height: 190px;
+    width: 1220px;
+    background-color: #91C945;
+    margin-top: 20px;
+}
+#img1{
+    margin-top: 10px;
+    margin-left:10px;
+	margin-right:10px;
+    width: 280px;
+  
+}
