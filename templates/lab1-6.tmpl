@@ -1,0 +1,30 @@
+{% extends 'base.tmpl' %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>
+	{{ text1 }}
+	</h3>
+	<p>Дано число N = {{n}}</p>
+	<p>Значення виразу: {{ sum }}</p>
+	<p><h3>
+	{{ text2 }}
+	</h3></p>
+	<p>Задане число A: {{A}}</p> 
+	<p>Перший член прогресії X = {{x}}</p> 
+	<p>Знаменник прогресії D = {{d}}</p>
+	<p>Кількість членів прогресії, сума яких не перевищує: {{count}}.</p>
+	<p>Сума цих членів: {{sum}}.</p>
+</body>
+</html>
+
+
+{% endblock content %}
